@@ -8,7 +8,7 @@
  * Return: number of chars printed.
  */
 
-int prinsint(va_list arguments, char *buf, unsigned int ibuf)
+int printspcint(va_list arguments, char *buf, unsigned int ibuf)
 {
 	int int_input;
 	unsigned int int_in, int_temp, i, div;
