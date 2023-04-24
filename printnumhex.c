@@ -8,7 +8,7 @@
  * Return: number of chars printed.
  */
 
-int prinnhex(va_list arguments, char *buf, unsigned int ibuf)
+int printnumhex(va_list arguments, char *buf, unsigned int ibuf)
 {
 	int int_input, i, isnegative, count, first_digit;
 	char *hexadecimal, *binary;
