@@ -8,7 +8,7 @@
  * Return: number of chars printed.
  */
 
-int prinhint(va_list arguments, char *buf, unsigned int ibuf)
+int printShInt(va_list arguments, char *buf, unsigned int ibuf)
 {
 	short int int_input;
 	unsigned short int int_in, int_temp, i, div, isneg;
