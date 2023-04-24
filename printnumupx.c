@@ -8,7 +8,7 @@
  * Return: number of chars printed.
  */
 
-int prinnupx(va_list arguments, char *buf, unsigned int ibuf)
+int printnumupx(va_list arguments, char *buf, unsigned int ibuf)
 {
 	int int_input, i, isnegative, count, first_digit;
 	char *hexadecimal, *binary;
