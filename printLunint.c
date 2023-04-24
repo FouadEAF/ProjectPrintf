@@ -8,7 +8,7 @@
  * Return: number of chars printed.
  */
 
-int prinlunt(va_list arguments, char *buf, unsigned int ibuf)
+int printLunint(va_list arguments, char *buf, unsigned int ibuf)
 {
 	unsigned long int int_in, int_temp, i, div;
 
